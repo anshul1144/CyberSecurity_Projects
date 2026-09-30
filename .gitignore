@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+
+# Local data & temporary test files
+input/*.png
+input/*.jpg
+input/*.jpeg
+input/*.pdf
+input/*.txt
+output/*.png
+!input/.gitkeep
+!output/.gitkeep
